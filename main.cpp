@@ -1,10 +1,8 @@
 #include <iostream>
 
-void Log(const char* message) {
-    std::cout << message << std::endl;
-}
+void Log(const char* message);
 
 int main() {
-    Log("Hello World!");
+    Log("Hello World with CMake and C++17!");
     std::cin.get();
 }
